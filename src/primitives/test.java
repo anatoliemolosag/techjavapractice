@@ -10,5 +10,6 @@ public class test {
         System.out.println("my last payment is $" + lastpayment);
 
         System.out.println("me");
+        System.out.println("you");
     }
 }
