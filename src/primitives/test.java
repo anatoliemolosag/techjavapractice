@@ -9,6 +9,6 @@ public class test {
         int lastpayment = computer % mypayment;
         System.out.println("my last payment is $" + lastpayment);
 
-
+        System.out.println("me");
     }
 }
