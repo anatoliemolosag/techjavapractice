@@ -6,7 +6,7 @@ public class CharPractice {
 
         char letter = 'T'; //  values of the char has to be in '' (quotation mark)
 
-       // char letter2 = "A"; it will not compile
+        // char letter2 = "A"; it will not compile
 
         System.out.println(letter); // T ---> ASCII table dec value for letter T is 84
 
@@ -20,7 +20,7 @@ public class CharPractice {
         char space = ' ';
         System.out.println(space);
 
-        int x =4;
+        int x = 4;
         System.out.println(x);
 
         int something = 'A';
@@ -34,6 +34,19 @@ public class CharPractice {
 
         char random2 = 102;
         System.out.println(random2);
+
+        char ch = 'd';
+
+        char ch1 = 'e';
+
+        System.out.println(ch);
+        System.out.println(ch1);
+        System.out.println(ch + ch1);
+
+        int chr = ch + ch1;
+        System.out.println(chr);
+
+
 
 
     }

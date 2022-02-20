@@ -62,6 +62,11 @@ public class ArithmeticOperators {
         int leftoverBurgers = burger % people;
         System.out.println(leftoverBurgers + " burgers left over after people shared them evenly");
 
+        char ch = 'd';
+
+
+
+
 
 
 

@@ -46,6 +46,9 @@ public class DataTypes {
         System.out.println(Short.MAX_VALUE);
         System.out.println(Short.MIN_VALUE);
 
+        boolean bl = true;
+        System.out.println(bl);
+
 
 
 

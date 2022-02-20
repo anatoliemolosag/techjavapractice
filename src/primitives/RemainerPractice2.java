@@ -16,7 +16,7 @@ public class RemainerPractice2 {
 
         System.out.println(" You will pay  $" + lastPayment + " on your last bill");
 
-
+        System.out.println(60 % 525600);
 
 
 
