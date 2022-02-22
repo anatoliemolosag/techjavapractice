@@ -12,7 +12,7 @@ public class ComparisonOperators1 {
         boolean canAttend = ageChild ==requireAge;
         System.out.println(canAttend);//false
 
-        //eve if the child is 6 or more
+        //event if the child is 6 or more
 
         boolean canAttend2 = ageChild >= requireAge;
         System.out.println(canAttend);//false
@@ -28,11 +28,11 @@ public class ComparisonOperators1 {
         System.out.println(canAttend$4);//true
 
 
-        int myDistance =20;
+        int myDistance =11;
 
         int limit = 10;
 
-        boolean fee = myDistance >= limit ;
+        boolean fee = myDistance <= limit ;
 
         System.out.println(fee);
 

@@ -48,7 +48,7 @@ public class UnaryOperators1 {
         System.out.println();
 
         int m = k + ++k; //13 + 14
-        System.out.println();
+        System.out.println(m);//27
 
                 int a = k, b = m , j = a + b++;
                 //j -->41
