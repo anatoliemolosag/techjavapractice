@@ -64,6 +64,14 @@ public class Casting {
         short s2 = 2;
         short result5 = (short) (s1 + s2);
 
+        //=======================================
+
+        int ii = (int)(4.5);
+
+        short sh = (short)i ;
+
+
+
 
     }
 }

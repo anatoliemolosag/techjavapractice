@@ -12,8 +12,10 @@ public class LogicalOperators2 {
         int cash = 0;
         int cclimit = 1100;
 
-        boolean get = laptopcost<=cash || laptopcost<=cclimit || cash + cclimit >= laptopcost;
-        System.out.println(get);
+        boolean get = laptopcost<=cash || laptopcost<=cclimit || cash + cclimit >= laptopcost;//false
+        boolean get1=  !(laptopcost<=cash || laptopcost<=cclimit || cash + cclimit >= laptopcost);//true
+        System.out.println(get);//false
+        System.out.println(get1);//true
 
     }
 }
