@@ -1,4 +1,4 @@
-package string;
+package scanner;
 
 import java.util.Scanner;
 
@@ -14,6 +14,15 @@ public class ScannerPractice1 {
         int age = scanner.nextInt();
         System.out.println("your current age is: "+ age);
         System.out.println("Your age was " + ( age - 10 ) + ", 10 years ago ");
+
+        //ask user to provide his/her height in meters and show it as centimiters
+        //================================
+        // calculate users BMI >> BMI = kg/(m*m)
+
+
+
+
+
 
     }
 }
