@@ -47,6 +47,12 @@ public class StringBasic {
 
 
 
+        /*charAt()
+         concat();
+         lenght();
+         indexOf();
+         isEmpty()
+         */
 
 
 

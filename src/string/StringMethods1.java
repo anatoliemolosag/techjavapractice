@@ -51,6 +51,22 @@ public class StringMethods1 {
         System.out.println(animal.indexOf("ooo"));//-1
 
 
+        // indexof()
+        animal = "bamboo";
+        System.out.println(animal.indexOf('b'));//0
+
+        int indexOfSecond_b = animal.indexOf('b' , 1);
+        System.out.println(indexOfSecond_b);//3
+
+        int indexOfthree_b = animal.indexOf('b' , 4);
+        System.out.println(indexOfSecond_b);//3
+
+        int indexOfFourth=  animal.indexOf('b' , animal.indexOf('b')+1);
+        System.out.println(indexOfFourth);
+
+
+
+
 
 
 

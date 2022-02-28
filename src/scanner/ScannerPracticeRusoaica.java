@@ -2,7 +2,7 @@ package scanner;
 
 import java.util.Scanner;
 
-public class ScannerPractice {
+public class ScannerPracticeRusoaica {
     public static void main(String[] args) {
 
 

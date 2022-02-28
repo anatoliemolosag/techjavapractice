@@ -2,7 +2,7 @@ package scanner;
 
 import java.util.Scanner;
 
-public class ScannerPractice2 {
+public class  ScannerPractice2 {
 
     public static void main(String[] args) {
         // next()
@@ -11,7 +11,7 @@ public class ScannerPractice2 {
 
         System.out.println("please enter where do you live");
 
-        String city = sc.next();//when yiu use next() , it will take only single word from the user entry , till first space
+        String city = sc.next();//when you use next() , it will take only single word from the user entry , till first space
 
         System.out.println("You are living in "+city);
 
@@ -29,9 +29,9 @@ public class ScannerPractice2 {
         System.out.println("zip code is " + zipcode);
 
         //take single character from string
-        sc.nextLine();
-        System.out.println("please enter your first name ");
 
+        System.out.println("please enter your first name ");
+        sc.nextLine();
         char firstLetter = sc.nextLine().charAt(0);
 
         System.out.println("your first initial " + firstLetter);
