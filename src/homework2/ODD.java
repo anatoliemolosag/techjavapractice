@@ -1,4 +1,4 @@
-package homework;
+package homework2;
 
 import java.util.Scanner;
 
@@ -8,6 +8,18 @@ public class ODD {
             Scanner sc = new Scanner(System.in);
             System.out.println("Please enter a string value.");
             String string = sc.nextLine();
+
+            String result = string.replace(" " , "");
+            System.out.println(result);
+            string=result;
+            double lenght =  string.length();
+            System.out.println(lenght);
+            boolean result1  = lenght%2 !=0;
+            System.out.println(result1);
+
+
+
+
             // Please do not change anything on lines above.
             //The value of the string has already been assigned using the scanner.
             //
