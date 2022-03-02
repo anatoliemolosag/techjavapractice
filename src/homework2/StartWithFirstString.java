@@ -1,4 +1,4 @@
-package homework;
+package homework2;
 
 import java.util.Scanner;
 
@@ -11,6 +11,15 @@ public class StartWithFirstString {
         String firstString = scanner.next();
         System.out.println("Enter second string value");
         String secondString = scanner.next();
+
+        firstString = firstString.substring(firstString.length()-2,firstString.length());
+        secondString = secondString.substring(0,2);
+        System.out.println(firstString.equalsIgnoreCase(secondString));
+
+
+
+
+
 
 
 

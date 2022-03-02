@@ -10,7 +10,7 @@ public class MethodsTask {
 
         String text = scanner.nextLine();
 
-        System.out.println(text.charAt(0));//find and shor first char
+        System.out.println(text.charAt(0));//find and show first char
 
         System.out.println(text.charAt(6));//find and show last char
 

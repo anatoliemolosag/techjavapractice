@@ -1,4 +1,4 @@
-package homework;
+package homework2;
 
 import java.util.Scanner;
 
@@ -24,7 +24,7 @@ public class StringMethods {
 
         //3. Print the length of the given song name.
         System.out.println("lenght ");
-        int count = songName.length()-1;
+        int count = songName.length();
         System.out.println(count);
 
 //4. Print the index number of "k" in this song name.

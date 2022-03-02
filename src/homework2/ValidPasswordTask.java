@@ -1,4 +1,4 @@
-package homework;
+package homework2;
 
 import java.util.Locale;
 import java.util.Scanner;
@@ -8,6 +8,14 @@ public class ValidPasswordTask {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please create a new and valid password.");
         String password = scanner.nextLine();
+
+        boolean isUpper = password.toLowerCase() != password;
+        boolean isLower = password.toUpperCase() != password;
+        System.out.println(isUpper&&isUpper);
+
+
+
+
 
 
         // Please don't change anything on lines above.
@@ -38,4 +46,5 @@ public class ValidPasswordTask {
 
 
 
-    }}
+    }
+}
