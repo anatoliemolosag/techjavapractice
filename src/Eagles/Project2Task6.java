@@ -15,14 +15,24 @@ public class Project2Task6 {
         int word1 = word.indexOf(" ")-1;
         System.out.println(word1);
 
-        //int word2 =word.indexOf(word.indexOf(" ")-1);
+       // int word2 =word.indexOf(word.indexOf(" ")-1);
         //System.out.println(word2);
 
         int word2 =word.indexOf(' ',word.indexOf(" ")+1)-1;
         System.out.println(word2);
 
+//milk butter oil pan
+        //int word4=word.indexOf(" ", word.charAt(word2+2))-1;
+        //System.out.println(word4);
+        //int word3 =word.indexOf(' ',word.indexOf(" ",word2)+2)-1;
+        //System.out.println(word3);
+
         int word3 = word.length()-1;
         System.out.println(word3);
+
+        System.out.println(word1+word2+word3);
+
+
 
 
         //String word1

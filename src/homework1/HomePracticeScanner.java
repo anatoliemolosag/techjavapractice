@@ -1,6 +1,5 @@
-package homework;
+package homework1;
 
-import javax.sound.midi.Soundbank;
 import java.util.Scanner;
 
 public class HomePracticeScanner {
