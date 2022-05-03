@@ -8,7 +8,16 @@ public class MultipleTermsForLoop {
             System.out.println("c>>" +c);
             System.out.println("k>> " +k);
         }
+
+        char ch ='m';
+        int i= 0;
+
+        for (i =10 ,ch = 'a';ch<'h' || i>2 ;ch++,i--){
+            System.out.println("Break time is coming in " + i+ "minutes");
+        }
+        //print out alphabet with lower case with loop
+        for (  char c = 'a'  ; c<'z'  ;c++   ){
+            System.out.println(c+ " - ");
+        }
     }
-
-
 }

@@ -34,9 +34,12 @@ public class MultiDimentionalPractice {
         System.out.println(Arrays.deepToString(numbers));//[[200, 0, 0, 0, 22], [0, 0, 0, 0, 0], [0, 0, 0, 0, 6]]
         System.out.println(Arrays.toString(numbers[0]));//[200, 0, 0, 0, 22]
 
+        System.out.println(Arrays.toString(numbers[2]));//[0, 0, 0, 0, 6]
 
-
-
-
+        for(int i =0 ; i< numbers.length; i++){
+            for(int j =0 ; j <numbers[i].length; j++){
+                System.out.println(numbers[i][j]);
+            }
+        }
     }
 }
