@@ -19,6 +19,7 @@ public class SubstringIndexOf {
         String k = s.substring(s.indexOf("co-pilot"),s.lastIndexOf("co-pilot")+8);
 
         System.out.println(k);
+        System.out.println(f);
 
     }
 }

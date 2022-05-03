@@ -1,4 +1,4 @@
-package EaglesProjects;
+package EaglesProjects.project3;
 
 import java.util.Scanner;
 

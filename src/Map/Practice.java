@@ -73,6 +73,26 @@ public class Practice {
 
         System.out.println(map);
 
+        System.out.println("==========================");
+
+        for(Integer key : allKeys){
+
+            System.out.println(key);
+
+        }
+
+        //what if you want to get one at a time by using these keys
+
+        System.out.println(map.get(22));// ->value of 22 --> "Screen"
+
+        for(Integer key : allKeys){
+
+            System.out.println(map.get(22));
+
+        }
+
+
+
 
 
 

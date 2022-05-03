@@ -6,10 +6,10 @@ public class Loops {
 
     /*
     Possible interview questions
-    10many technical questions they requare to use loops solve the questions
+    10many technical questions they require to use loops solve the questions
 
    LOOPS: Is a way to iterate (circle) the elements (values/variables) one by one .
-   in other words --> is a cicle of repetitive actions
+   in other words --> is a cycle of repetitive actions
 
    TYPES OF LOOPS:
    Do While
