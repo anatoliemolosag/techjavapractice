@@ -1,4 +1,4 @@
-public class test1 {
+public class swapTwoStrings {
 
     public static void main(String[] args) {
 
@@ -11,16 +11,19 @@ public class test1 {
        firstName = firstName.substring(lastName.length());
 
 
+
         System.out.println("lastname " +lastName);
         System.out.println("firstname " +firstName);
 
-        String reversed ="";
-        for (int i = firstName.length(); i >=1 ; i--) {
+        int a =5;
+        int b =15;
 
-            reversed += firstName.substring(i-1,i);
+        a=a+b;
+        b=a-b;
+        a=a-b;
 
-        }
-        System.out.println(reversed);
+        System.out.println("a = "+a);
+        System.out.println("b = "+b);
 
 
 
