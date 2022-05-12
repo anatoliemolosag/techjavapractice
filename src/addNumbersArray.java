@@ -12,7 +12,7 @@ public class addNumbersArray {
 
         }
         System.out.println(add);
-        
+
 
     }
 }
